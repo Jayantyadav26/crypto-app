@@ -9,7 +9,7 @@ function App() {
     <div className='app'>
       <Navbar /> {/* Use the correct component name */}
       <Routes>
-        <Route path='/crypto-app' element={<Home/>} />
+        <Route path='/' element={<Home/>} />
         <Route path='/coin/:coinId' element={<Coin/>} />
       </Routes>
       <Footer/>
